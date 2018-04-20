@@ -1,0 +1,120 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+}
+
+article  {
+    width: 49%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 3em;
+    line-height: 0.25em;
+    vertical-align: text-top;
+    margin-top: 0.5em
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 2.25em;
+    width: 100%;
+    float: left;
+}
+
+a {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.75em;
+}
+
+hr {
+    width: 100%;
+}
+
+section {
+    box-sizing: border-box;
+}
+
+header {
+    min-height: 150px;
+}
+
+/* Colors */
+.grey {
+    color: grey;
+}
+
+.darkslategrey {
+    color: darkslategrey;
+}
+
+.orange {
+    color: orange;
+}
+
+.logo {
+    float: left;
+    max-width: 140px;
+    max-height: 140px;
+}
+
+.heading {
+    float: right;
+    text-align: right;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.introduction-image {
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0.5em;
+    max-height: 460.5px;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.introduction-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    width: 100%;
+    margin: 0;
+    text-align: justify;
+    display: inline-block;   
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+
+.movie-poster {
+    max-width: 220px;
+    max-height: 326px;
+}
+
+.introduction {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featured-content {
+    width: 100%;
+}
